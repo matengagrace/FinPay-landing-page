@@ -1,4 +1,3 @@
-import React from "react";
 
 import { Landmark } from "lucide-react";
 import { footerLinks } from "../constants";

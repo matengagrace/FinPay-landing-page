@@ -1,13 +1,4 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Princing from "./components/Princing";
-import Experiences from "./components/Experiences";
-import Step from "./components/Step";
-import Mission from "./components/Mission";
-import CTA from "./components/CTA";
-import Footer from "./components/Footer";
-
+import { Navbar, Hero, Princing, Experiences, Step, Mission, CTA, Footer } from "./components";
 
 function App() {
   

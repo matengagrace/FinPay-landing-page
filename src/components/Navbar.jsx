@@ -1,8 +1,9 @@
-import React,{useState} from "react";
+import {useState} from "react";
 import { Landmark } from "lucide-react";
 import { navLinks } from "../constants";
-import menu from '../assets/menu.svg'
-import close from '../assets/close.svg'
+
+import { menu, close } from "../assets";
+
 
 function Navbar() {
     const [toggle, setToggle] = useState(false)

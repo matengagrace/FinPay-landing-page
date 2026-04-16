@@ -1,9 +1,4 @@
-import React from "react";
-import arrowup from "../assets/arrow-up.svg";
-import coinbase from '../assets/coinbase.png'
-import klarna from '../assets/klarna.png'
-import instacart from '../assets/instacart.png'
-import hero from '../assets/hero.png'
+import { arrowup, coinbase, klarna, instacart, hero } from "../assets";
 
 function Hero() {
   return (
@@ -26,9 +21,9 @@ function Hero() {
           </button>
         </div>
         <div className="opacity-0 animate-fadeInUp-delay-3 flex items-center justify-between gap-5 mt-5 flex-wrap">
-            <img src={klarna} alt="klarna" className="w-[140px]"/>
-            <img src={coinbase} alt="klarna" className="w-[140px]"/>
-            <img src={instacart} alt="klarna" className="w-[140px]"/>
+          <img src={klarna} alt="klarna" className="w-[140px]" />
+          <img src={coinbase} alt="klarna" className="w-[140px]" />
+          <img src={instacart} alt="klarna" className="w-[140px]" />
         </div>
       </div>
       <div className="opacity-0 animate-fadeInUp-delay-4 w-full sm:w-[50%]">

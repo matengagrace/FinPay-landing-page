@@ -1,4 +1,4 @@
-import React from "react";
+
 import { CreditCard, Landmark, Shield } from "lucide-react";
 
 function Princing() {

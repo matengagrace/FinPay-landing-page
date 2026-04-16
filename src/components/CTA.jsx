@@ -1,6 +1,5 @@
 import React from "react";
-
-import arrowup from "../assets/arrow-up.svg";
+import {arrowup} from "../assets"
 
 function CTA() {
   return (
