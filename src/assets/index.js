@@ -3,7 +3,7 @@ import close from './close.svg';
 
 import arrowup from "./arrow-up.svg";
 import coinbase from './coinbase.png'
-import klarna from './klarna.png'
+import klarna from './Klarna.png'
 import instacart from './instacart.png'
 import hero from './hero.png'
 import x from './x.png'
