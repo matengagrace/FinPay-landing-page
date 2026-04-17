@@ -34,7 +34,7 @@ function Navbar() {
       </div>
 
        <div className='sm:hidden flex flex-1 justify-end items-center'>
-        <img src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] bg-black rounded-[5px]' onClick={()=>{setToggle(!toggle)}}/>
+        <img src={toggle ? close : menu} alt="menu" className='w-[30px] h-[30px] rounded-[5px]' onClick={()=>{setToggle(!toggle)}}/>
 
         <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-blueClaire absolute top-20 right-[-35px] mx-4 my-2 min-w-[240px] h-screen rounded-xl flex flex-col justify-end items-end text-right`}>
           <ul className='list-none flex flex-col items-end text-right flex-1 gap-4 w-full pr-2'>

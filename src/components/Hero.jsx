@@ -25,8 +25,8 @@ function Hero() {
           <img src={instacart} alt="instacart" className="w-[140px]" />
         </div>
       </div>
-      <div className="opacity-0 animate-fadeInUp-delay-4 w-full sm:w-[50%]">
-        <img src={hero} alt="hero" />
+      <div className="opacity-0 animate-fadeInUp-delay-4 w-full sm:w-[50%] justify-center items-center">
+        <img src={hero} alt="hero" className="w-full"/>
       </div>
     </section>
   );
