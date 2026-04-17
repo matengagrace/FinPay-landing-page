@@ -17,7 +17,7 @@ function Hero() {
         <div className="opacity-0 animate-fadeInUp-delay-2 flex w-full mt-5 sm:w-[90%] justify-between items-center flex-col sm:flex-row  relatve sm:border border-gray-400 rounded-[10px]">
           <input type="text" placeholder="Your business message" className=" bg-white border h-[48px] pl-5 mb-[60px] sm:mb-0 border-gray-400 sm:w-[70%] w-full text-gray-400 rounded-l-[10px] rounded-r-[10px] sm:rounded-r-0 outline-0" />
           
-          <button className="btn-primary text-white text-[16px] bg-blueClaire border-0 flex absolute bottom-0 right-[24%] sm:right-0 justify-center items-center">
+          <button className="btn-primary text-white text-[16px] bg-blueClaire border-0 flex absolute bottom-0 right-[23%] sm:right-0 justify-center items-center">
             Get Started <img src={arrowup} alt="arrow up" className="ml-5" />
           </button>
         </div>
