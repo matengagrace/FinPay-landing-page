@@ -17,7 +17,7 @@ function Navbar() {
           </h1>
         </div>
 
-        <ul className="list-none hidden justify-center items-center flex-1 sm:flex">
+        <ul className="list-none hidden justify-center items-center flex-1 md:flex">
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}

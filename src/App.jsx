@@ -10,7 +10,7 @@ function App() {
         </div>
       </div>
 
-      <div className="w-[90%] sm:w-[84%] flex justify-center items-center mx-auto mt-15">
+      <div className="w-[90%] sm:w-[84%] flex justify-center items-center mx-auto mt-15 y-6">
         <Hero />
       </div>
 

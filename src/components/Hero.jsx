@@ -2,7 +2,7 @@ import { arrowup, coinbase, instacart, hero } from "../assets";
 
 function Hero() {
   return (
-    <section className="w-full flex justify-between items-center md:flex-row flex-col sm:py-2 py-6">
+    <section className="w-full flex justify-between items-center md:flex-row flex-col sm:py-2 mt-9 py-6">
       <div className="flex flex-col items-start pr-5">
         <h2 className="opacity-0 animate-fadeInUp text-[35px] sm:text-[70px] text-bold text-blackClaire">
           Get paid early <br className="sm:block hidden" />
@@ -14,9 +14,10 @@ function Hero() {
           and cash flow management tools.
         </p>
 
-        <div className="opacity-0 animate-fadeInUp-delay-2 flex bg-white border border-gray-400 w-full sm:w-[90%] text-gray-400 justify-between items-center pl-4 rounded-[10px] mt-6">
-          Your business message
-          <button className="btn-primary text-white text-[16px] bg-blueClaire border-0 flex justify-center items-center">
+        <div className="opacity-0 animate-fadeInUp-delay-2 flex w-full mt-5 sm:w-[90%] justify-between items-center relatve border border-gray-400 rounded-[10px]">
+          <input type="text" placeholder="Your business message" className=" bg-white border h-[48px] pl-5 border-gray-400 w-[70%] text-gray-400 rounded-l-[10px] outline-0" />
+          
+          <button className="btn-primary text-white text-[16px] bg-blueClaire border-0 flex absolute top-0 right-0 justify-center items-center">
             Get Started <img src={arrowup} alt="arrow up" className="ml-5" />
           </button>
         </div>
