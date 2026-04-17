@@ -36,13 +36,15 @@ function Navbar() {
        <div className='sm:hidden flex flex-1 justify-end items-center'>
         <img src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] bg-black rounded-[5px]' onClick={()=>{setToggle(!toggle)}}/>
 
-        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-blueClaire absolute top-20 right-[-35px] mx-4 my-2 min-w-[140px] h-screen rounded-xl `}>
-          <ul className='list-none flex flex-col items-center flex-1'>
+        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-blueClaire absolute top-20 right-[-35px] mx-4 my-2 min-w-[240px] h-screen rounded-xl flex flex-col justify-end items-end text-right`}>
+          <ul className='list-none flex flex-col items-end text-right flex-1 gap-4 w-full pr-2'>
             {navLinks.map((nav,index)=>(
-              <li key={nav.id} className={`font-poppins font-semibold cursor-pointer text-[16px] ${index === navLinks.length -1 ? 'mr-0' : 'mb-4'} text-white`}>
+              <li key={nav.id} className={`font-poppins font-semibold text-right rounded-xl px-4 py-1 hover:bg-primary w-full hover:text-blueClaire cursor-pointer text-[16px] ${index === navLinks.length -1 ? 'mr-0' : 'mb-4'} text-white`}>
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
+            <button className="btn-primary bg-transparent border-primary mr-3 text-white hover:bg-primary hover:text-blackClaire">Login</button>
+           <button className="btn-primary bg-primary text-blueClaire border-0 mr-3 hover:border hover:border-primary hover:bg-blueClaire hover:text-white">Sign Up</button>
           </ul>
         </div>
       </div>

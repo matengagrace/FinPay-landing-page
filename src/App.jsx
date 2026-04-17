@@ -21,7 +21,7 @@ function App() {
         </div>
       </div>
 
-      <div className="w-full bg-gray-50 flex justify-center items-center">
+      <div className="w-full bg-gray-50 flex justify-center items-center py-[100px] xs:py-0 sm:py-[50px]">
         <div id="customers" className="w-[80%] flex justify-center items-center mx-auto bg-gray-50 rounded-[10px] py-5">
           <Experiences />
         </div>

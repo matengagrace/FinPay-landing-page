@@ -9,7 +9,7 @@ function Princing() {
           <h4 className="text-blueClaire uppercase font-bold">
             Future Payment
           </h4>
-          <h2 className="opacity-0 animate-fadeInUp text-[35px] sm:text-[45px] font-bold text-blackClaire">
+          <h2 className="opacity-0 animate-fadeInUp text-[30px] sm:text-[45px] font-bold text-blackClaire">
             Experience that grows <br className="sm:flex hidden" /> with your
             scale
           </h2>

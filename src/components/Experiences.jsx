@@ -6,7 +6,7 @@ function Experiences() {
     <section className="bg-gray-50 w-full justify-center h-[100%] pb-6">
       <div className="justify-center items-center flex-col flex ">
         <h4 className="text-blueClaire uppercase font-bold">Why us</h4>
-        <h2 className="text-[35px] sm:text-[45px] font-bold text-blackClaire">
+        <h2 className="text-[30px] sm:text-[45px] font-bold text-blackClaire">
           Why they prefer Finpay
         </h2>
       </div>

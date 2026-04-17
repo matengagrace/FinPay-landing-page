@@ -3,8 +3,8 @@ import {arrowup} from "../assets"
 
 function CTA() {
   return (
-    <section className="flex flex-col sm:flex-row p-[50px] justify-between  w-[90%] items-center gap-6">
-      <div className="w-full flex-col flex">
+    <section className="flex flex-col sm:flex-row p-[50px] justify-between  w-[90%] items-center gap-9">
+      <div className="w-full flex-col flex ga-5">
         <h2 className="text-blueClaire uppercase font-bold">Try it now</h2>
         <h4 className="opacity-0 animate-fadeInUp-delay-1 text-white font-bold mt-5 text-[20px] sm:text-[40px]">
           Ready to level up your payement process?
@@ -14,7 +14,7 @@ function CTA() {
         </p>
       </div>
 
-      <div className="flex justify-end items-end gap-2 sm:gap-6 w-full">
+      <div className="flex justify-center sm:justify-end items-end gap-2 sm:gap-6 w-full">
         <button className="opacity-0 animate-fadeInUp-delay-3 btn-primary text-white text-[16px] bg-blueClaire border-0 flex justify-center items-center">
           Get Started
         </button>

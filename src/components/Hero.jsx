@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section className="w-full flex justify-between items-center md:flex-row flex-col sm:py-2 py-6">
       <div className="flex flex-col items-start pr-5">
-        <h2 className="opacity-0 animate-fadeInUp text-[45px] sm:text-[70px] text-bold text-blackClaire">
+        <h2 className="opacity-0 animate-fadeInUp text-[35px] sm:text-[70px] text-bold text-blackClaire">
           Get paid early <br className="sm:block hidden" />
           save automatically <br className="sm:block hidden" />
           all your pay.
