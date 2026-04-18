@@ -25,7 +25,7 @@
 
   
   .reveal {
-    @apply opacity-0 transition-all duration-1000 ease-out;
+    @apply opacity-0 transition-all sm:duration-1000 duration-500 ease-out;
   }
 
   
@@ -50,6 +50,9 @@
     @apply rotate-12 scale-90;
   }
 
+  .delay-0{
+    transition-delay: 0ms;
+  }
   .delay-500{
     transition-delay: 500ms;
   }
@@ -61,6 +64,22 @@
   }
   .delay-2000{
     transition-delay: 2000ms;
+  }
+
+  @keyframes fadeUp {
+    0%{
+      opacity: 0;
+      transform: translateY(150px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animation-fade-up{
+    opacity: 0;
+    animation: fadeUp 0.8s ease-out forwards;
   }
  
 }
