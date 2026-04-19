@@ -2,6 +2,10 @@
 
 @import "tailwindcss";
 
+*{
+  font-family: "Poppins", sans-serif;
+}
+
 @theme {
   --color-primary: #e9f3f4;
   --color-blueClaire: #2a8e9e;

@@ -35,14 +35,14 @@ function Mission() {
       <div ref={elementRef} className={`reveal reveal-bottom ${isVisible ? "show" : ""} delay-100 justify-center items-center flex-col flex py-5 mt-5`}>
         <h4 className="text-blueClaire uppercase font-bold mt-5">Choose plan:</h4>
         <div className=" w-full flex justify-around items-center gap-6 mt-5 flex-col sm:flex-row">
-            <div className="bg-primary text-blackClaire px-6 p-4 flex flex-col justify-between rounded-md w-full h-[200px]">
+            <div className="bg-primary text-blackClaire px-6 p-4 flex flex-col justify-between rounded-md w-full h-[200px] hover:shadow-lg duration-1000 hover:scale-105">
                 <h5 className="font-bold text-[40px]">Plus</h5>
                 <div className='flex justify-between items-center'>
                     <p className="text-lg font-bold">$2.99/month</p>
                     <ArrowUp className="text-gray-800" />
                 </div>
             </div>
-            <div className=" bg-blueClaire text-white px-6 p-4 flex flex-col justify-between rounded-md w-full h-[200px]">
+            <div className=" bg-blueClaire text-white px-6 p-4 flex flex-col justify-between rounded-md w-full h-[200px] hover:shadow-lg duration-1000 hover:scale-105">
                 <h5 className="font-bold text-[40px]">Premium</h5>
                 <div className='flex justify-between items-center'>
                     <p className="text-lg font-bold">$19.99/month</p>

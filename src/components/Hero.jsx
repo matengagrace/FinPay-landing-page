@@ -24,8 +24,8 @@ function Hero() {
           </button>
         </div>
         <div  className={`animation-fade-up delay-1500 flex items-center justify-between gap-5 mt-5 flex-wrap`}>
-          <img src={coinbase} alt="coinbase" className="w-[140px]" />
-          <img src={instacart} alt="instacart" className="w-[140px]" />
+          <img src={coinbase} alt="coinbase" className="w-[140px] cursor-pointer" />
+          <img src={instacart} alt="instacart" className="w-[140px] cursor-pointer" />
         </div>
       </div>
       <div  className={`animation-fade-up delay-2000 w-full sm:w-[50%] justify-center items-center`}>

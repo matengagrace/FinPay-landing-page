@@ -14,7 +14,7 @@ const {elementRef, isVisible} = useIntersectionObserver({threshold:0.2,});
         </h2>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-10 w-full">
-        <div ref={elementRef} className={` reveal reveal-left ${isVisible ? "show" : ""} delay-0 sm:delay-50 bg-primary rounded-[10px] p-9`}>
+        <div ref={elementRef} className={` reveal reveal-left ${isVisible ? "show" : ""} delay-0 sm:delay-50 bg-primary rounded-[10px] p-9 hover:shadow-lg hover:scale-103`}>
           <h4 className="text-blueClaire uppercase font-bold text-[40px] sm:text-[60px]">
             3k+
           </h4>
@@ -22,7 +22,7 @@ const {elementRef, isVisible} = useIntersectionObserver({threshold:0.2,});
             Businesses already running on Finpay
           </p>
         </div>
-        <div ref={elementRef} className={`reveal reveal-right ${isVisible ? "show" : ""} delay-0 sm:delay-70 bg-primary rounded-[10px] p-9`}>
+        <div ref={elementRef} className={`reveal reveal-right ${isVisible ? "show" : ""} delay-0 sm:delay-70 bg-primary rounded-[10px] p-9 hover:shadow-lg hover:scale-103`}>
           <p className="font-semibold text-[20px] max-w-[300px] text-blackClaire mb-6 sm:mb-0">
             Instant Withdraw your funds at any time
           </p>
@@ -34,7 +34,7 @@ const {elementRef, isVisible} = useIntersectionObserver({threshold:0.2,});
             </div>
           </div>
         </div>
-        <div ref={elementRef} className={` reveal reveal-bottom ${isVisible ? "show" : ""} delay-0 sm:delay-90 bg-primary rounded-[10px] p-5 w-full col-span-2 flex justify-around items-center flex-col sm:flex-row`}>
+        <div ref={elementRef} className={` reveal reveal-bottom ${isVisible ? "show" : ""} delay-0 sm:delay-90 bg-primary rounded-[10px] p-5 w-full col-span-2 flex justify-around items-center flex-col sm:flex-row hover:shadow-lg hover:scale-103`}>
           <div>
             <h2 className="text-[25px] sm:text-[30px] font-semibold text-blackClaire">
               No asset volatility
