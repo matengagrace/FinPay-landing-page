@@ -9,7 +9,7 @@ function Step() {
           <h4 className="text-blueClaire uppercase font-bold">
             Step
           </h4>
-          <h2 ref={elementRef} className={`reveal reveal-bottom ${isVisible ? "show" : ""} delay-0 text-[25px] sm:text-[45px] font-bold text-gray-50`}>
+          <h2 ref={elementRef} className={`reveal reveal-bottom ${isVisible ? "show" : ""} delay-0 text-[25px] sm:text-[40px] font-bold text-gray-50`}>
             Maximize your returns with a <br className="sm:flex hidden" /> Reserve account that generated.
           </h2>
         </div>
