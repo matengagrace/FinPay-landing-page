@@ -4,7 +4,7 @@ import {arrowup} from "../assets"
 import useIntersectionObserver from "./useIntersectionObserver";
 
 function CTA() {
-  const {elementRef, isVisible} = useIntersectionObserver({threshold:0.2});
+  const {elementRef, isVisible} = useIntersectionObserver({threshold:0.1});
   return (
     <section className="flex flex-col sm:flex-row p-[50px] justify-between  w-[90%] items-center gap-9">
       <div ref={elementRef} className={`reveal reveal-bottom sm:reveal-left ${isVisible ? "show" : ""} delay-0 w-full flex-col flex ga-5`}>
@@ -17,7 +17,7 @@ function CTA() {
         </p>
       </div>
 
-      <div ref={elementRef} className={`reveal reveal-bottom sm:reveal-left ${isVisible ? "show" : ""} delay-0 sm:delay-1000  flex justify-center sm:justify-end items-end gap-2 sm:gap-6 w-full`}>
+      <div ref={elementRef} className={`reveal reveal-bottom sm:reveal-left ${isVisible ? "show" : ""} delay-0 sm:delay-500  flex justify-center sm:justify-end items-end gap-2 sm:gap-6 w-full`}>
         <button className=" btn-primary text-white text-[16px] bg-blueClaire border-0 flex justify-center items-center">
           Get Started
         </button>

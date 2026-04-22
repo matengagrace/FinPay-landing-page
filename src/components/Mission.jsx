@@ -4,7 +4,7 @@ import useIntersectionObserver from "./useIntersectionObserver";
 
 
 function Mission() {
-  const {elementRef, isVisible} = useIntersectionObserver({threshold:0.2});
+  const {elementRef, isVisible} = useIntersectionObserver({threshold:0.0});
   return (
     <section className="bg-gray-50 w-full justify-center h-[100%] py-10">
       <div className=" justify-center items-center flex-col flex ">

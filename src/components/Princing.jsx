@@ -3,7 +3,7 @@ import { CreditCard, Landmark, Shield } from "lucide-react";
 import useIntersectionObserver from "./useIntersectionObserver";
 
 function Princing() {
-  const {elementRef, isVisible} = useIntersectionObserver({threshold:0.2,});
+  const {elementRef, isVisible} = useIntersectionObserver({threshold:0.1,});
 
   return (
     <section className="bg-white w-full justify-start h-[100%] p-[60px] rounded-[10px]">

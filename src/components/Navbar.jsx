@@ -43,7 +43,7 @@ function Navbar() {
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
-            <button className="btn-primary bg-transparent border-primary mr-3 text-white hover:bg-primary hover:text-blackClaire">Login</button>
+            <button className="btn-primary bg-transparent border-primary mr-3 text-white hover:bg-primary hover:text-blackClaire duration-1000 delay-150 ">Login</button>
            <button className="btn-primary bg-primary text-blueClaire border-0 mr-3 hover:border hover:border-primary hover:bg-blueClaire hover:text-white">Sign Up</button>
           </ul>
         </div>

@@ -21,12 +21,12 @@ function Step() {
             <h4 className="font-semibold text-[25px] text-white mb-5">Open your account</h4>
             <p className="text-[16px] max-w-[400px] text-gray-100">Create a finacial experienceay and automate repeat purchases</p>
         </div>
-        <div ref={elementRef} className={` reveal reveal-bottom sm:reveal-left ${isVisible ? "show" : ""} delay-0 sm:delay-1000 mt-5 bg-blueClaire p-5 rounded-[10px] hover:shadow-lg hover:scale-110 hover:delay-0`}>
+        <div ref={elementRef} className={` reveal reveal-bottom sm:reveal-left ${isVisible ? "show" : ""} delay-0 sm:delay-800 mt-5 bg-blueClaire p-5 rounded-[10px] hover:shadow-lg hover:scale-110 hover:delay-0`}>
             <h2 className='text-primary text-[60px] font-bold opacity-80'>2</h2>
             <h4 className="font-semibold text-[25px] text-white mb-5">Transfer your money</h4>
             <p className="text-[16px] max-w-[400px] text-gray-100">Create a finacial experienceay and automate repeat purchases</p>
         </div>
-        <div ref={elementRef} className={` reveal reveal-bottom sm:reveal-left ${isVisible ? "show" : ""} delay-0 sm:delay-1500 mt-5 bg-blueClaire p-5 rounded-[10px] hover:shadow-lg hover:scale-110 hover:delay-0`}>
+        <div ref={elementRef} className={` reveal reveal-bottom sm:reveal-left ${isVisible ? "show" : ""} delay-0 sm:delay-1100 mt-5 bg-blueClaire p-5 rounded-[10px] hover:shadow-lg hover:scale-110 hover:delay-0`}>
             <h2 className='text-primary text-[60px] font-bold opacity-80'>3</h2>
             <h4 className="font-semibold text-[25px] text-white mb-5">Whatch your balance grow</h4>
             <p className="text-[16px] max-w-[400px] text-gray-100">Create a finacial experienceay and automate repeat purchases</p>

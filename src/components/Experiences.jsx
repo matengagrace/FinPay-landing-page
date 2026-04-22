@@ -3,10 +3,10 @@ import { x, stats } from "../assets";
 import useIntersectionObserver from "./useIntersectionObserver";
 
 function Experiences() {
-const {elementRef, isVisible} = useIntersectionObserver({threshold:0.2,});
+const {elementRef, isVisible} = useIntersectionObserver({threshold:0.0,});
 
   return (
-    <section className="bg-gray-50 w-full justify-center  pb-6">
+    <section className="bg-gray-50 w-full justify-center pb-6">
       <div className="justify-center items-center flex-col flex ">
         <h4 className={`text-blueClaire uppercase font-bold`}>Why us</h4>
         <h2 ref={elementRef} className={` reveal reveal-bottom ${isVisible ? "show" : ""} delay-0 text-[30px] sm:text-[45px] font-bold text-blackClaire`}>

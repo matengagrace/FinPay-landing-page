@@ -5,8 +5,8 @@ function Hero() {
 
   return (
     <section className="w-full flex justify-between items-center md:flex-row flex-col sm:py-2 mt-9 py-6">
-      <div className="flex flex-col items-start pr-5">
-        <h2 className={`animation-fade-up text-[35px] delay-150 sm:text-[70px] text-bold text-blackClaire`}>
+      <div className="flex flex-col items-start pr-5 font-bold">
+        <h2 className={`animation-fade-up text-[40px] delay-150 sm:text-[68px] font-bold  text-blackClaire leading-[1.5] sm:leading-[1.1]`}>
           Get paid early <br className="sm:block hidden" />
           save automatically <br className="sm:block hidden" />
           all your pay.
